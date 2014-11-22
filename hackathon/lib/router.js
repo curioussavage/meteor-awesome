@@ -10,3 +10,7 @@ Router.configure({
 Router.route('/', function(){
 	this.render('main')
 })
+
+Router.route('/taylor', function(){
+	this.render('taylor')
+})
