@@ -1,4 +1,10 @@
 <template name="taylor">
   <h2>This is Taylors route</h2>
   <p>Rawr!</p>
+  <form class="new-chat">
+    <input type="text" name="text" placeholder="Type to chat" />
+  </form>
+    {{#each posts}}
+  	{{item}} <br>
+  {{/each }}
 </template>
